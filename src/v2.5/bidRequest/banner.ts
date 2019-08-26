@@ -17,7 +17,7 @@ export type Banner = {
    * Array of format objects (Section 3.2.10) representing the banner sizes permitted.
    * If none are specified, then use of the h and w attributes is highly recommended.
    */
-  format?: Format;
+  format?: Format[];
   /**
    * Exact width in device independent pixels (DIPS);
    * recommended if no format objects are specified.
